@@ -9,8 +9,8 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['💄', '💄', '💄', '💄', '💄'],  // Heart emojis
-        bears: ['🧣', '🧣']                       // Cute bear emojis
+        hearts: ['👮‍♀️', '🧛‍♀️', '🤰', '👯', '👤'],  // Heart emojis
+        bears: ['👞', '🛌🏻']                       // Cute bear emojis
     },
 
     // Questions and answers
@@ -20,7 +20,7 @@ const CONFIG = {
             text: "ТЫ НАСТОЯЩИЙ МАЙНКРАФТЕР??",                                    // First interaction
             yesBtn: "ДАААА",                                             // Text for "Yes" button
             noBtn: "ПИ.. ой.. то есть.. НЕТ!!!",                                               // Text for "No" button
-            secretAnswer: "майнкрафт в сердечке!!!"           // Secret hover message
+            secretAnswer: "ТУТ ОПРОСИК!!! *ЖМЯК*"           // Secret hover message
         },
         second: {
             text: "КАК СИЛЬНО ТЫ ЛЮБИШЬ БРАВЛ СТАРС??",                          // For the love meter
@@ -37,16 +37,16 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "ВАУУУУ ТЫ ТОЧНО ЛЮБИШЬ МАЙНКРАФТ??",  // Shows when they go past 5000%
-        high: "НИЧО СЕЕЕ",              // Shows when they go past 1000%
-        normal: "РЕАЛЬНО???"                           // Shows when they go past 100%
+        extreme: "АХУЕТЬ ТЫ ЧЕ БРООООО!!!!!!!!!",  // Shows when they go past 5000%
+        high: "ЕМАЕ EBIS ОНО КОНЕМ!!!!!",              // Shows when they go past 1000%
+        normal: "РЕАЛЬНО??? ВАУ!!!"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "ВАУУУУ!! НУ ВСЕ, ЗА МАЙНКРУФТЕР ЛАЙКОСИК",
-        message: "ты настоящий игрок в майнкруфтер, броу!",
-        emojis: "🐈🐈🐈🐈🐈🐈"  // These will bounce around
+        title: "АХУЕТЬ!",
+        message: "ты настоящий игрок в майнкруфтер, БРО!",
+        emojis: "👏🏼👏🏼👏🏼👏🏼👏🏼👏🏼👏🏼"  // These will bounce around
     },
 
     // Color scheme for the website
@@ -75,7 +75,7 @@ const CONFIG = {
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
         musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
         startText: "🎵 ВКЛЮЧИТЬ МУЗЫКУ",        // Button text to start music
-        stopText: "🔇 ОСТАНОВИТЕ ПЖ",         // Button text to stop music
+        stopText: "🔇 ОСТАНОВИТЕ ПЖ! О МОИ УШИ!!",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
     }
 };
